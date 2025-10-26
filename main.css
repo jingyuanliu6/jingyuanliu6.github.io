@@ -199,9 +199,9 @@ nav a:hover:after {
 }
 
 .service-details div {
-  width: 70%;
-  height: 120px;
-  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .service-details div img {
@@ -289,3 +289,4 @@ footer p {
     margin-bottom: 60px;
   }
 }
+
