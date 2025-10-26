@@ -311,22 +311,27 @@ footer p {
 
 /* ---------- NEWS LIST STYLE ---------- */
 .news-list {
-  list-style-type: disc; 
-  margin-left: 30px;     
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 50px;
+  margin-right: 50px;
   padding-left: 0;
-  max-width: 850px;
+  max-width: 800px;
 }
 
 .news-list li {
   font-family: "Titillium Web", sans-serif;
   font-size: 20px;
-  line-height: 1.6;
+  line-height: 30px;
   text-align: left;
+  color: #000;
+  text-indent: -1.4em;
+  padding-left: 1.4em;
   margin-bottom: 15px;
-  list-style-position: outside;
-  text-indent: -1.4em;  
-  padding-left: 1.4em;  
+  max-width: 800px;
 }
+
+
 
 
 
