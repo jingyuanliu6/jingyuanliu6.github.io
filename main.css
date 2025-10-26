@@ -273,20 +273,21 @@ footer p {
   .skills {
     width: 100%;
   }
+
   .service-details div {
     width: 100%;
-    height: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 600px) {
   nav {
-    display: none;
+    display: none; 
   }
 
   .main {
     margin: 0;
+    padding: 0 20px;
   }
 
   .skills {
@@ -295,9 +296,19 @@ footer p {
 
   .service-details div {
     width: 100%;
-    height: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+  }
+
+  .service-details p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .service-details h3 {
+    font-size: 18px;
   }
 }
+
+
 
 
