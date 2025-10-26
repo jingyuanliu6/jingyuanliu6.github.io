@@ -7,173 +7,214 @@
     <link rel="stylesheet" href="main.css" />
 
     <link
-      href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Titillium+Web|Varela+Round&display=swap"
+      href="https://fonts.googleapis.com/css?family=Titillium+Web|Varela+Round&display=swap"
       rel="stylesheet"
     />
-    <title>Personal Website</title>
+
+    <title>Jingyuan Liu | Personal Website</title>
+
+    <!-- Top navigation bar -->
     <nav>
-      <img src="https://i.ibb.co/TY0B1f2/peofilep.jpg" alt="Profile Picture" />
-      <p class="headname">MasterBrian</p>
+      <!-- avatar: you can later replace src with your own headshot file -->
+      <img
+        src="https://i.ibb.co/TY0B1f2/peofilep.jpg"
+        alt="Profile Picture"
+      />
+      <p class="headname">Jingyuan Liu</p>
       <ul>
-        <li><a href="#home"> HOME</a></li>
-        <li><a href="#about"> ABOUT ME </a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#blog"> BLOG</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#interests">RESEARCH INTERESTS</a></li>
+        <li><a href="#news">NEWS</a></li>
+        <li><a href="#publications">PUBLICATIONS</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </nav>
   </head>
+
   <body>
     <div class="main">
-      <div class="home" id="home">
-        <img src="https://i.ibb.co/TY0B1f2/peofilep.jpg" alt="Profile" />
+
+      <!-- ABOUT / SHORT BIO -->
+      <div class="home" id="about">
+        <!-- same avatar again; you can swap later -->
+        <img
+          src="https://i.ibb.co/TY0B1f2/peofilep.jpg"
+          alt="Profile"
+        />
         <p class="namestart">
-          Hello, I am Master Brian. <br />
-          Web Designer and FRONT-END DEVELOPER
+          Hi, I'm <strong>Jingyuan Liu</strong>.
         </p>
         <p class="nameabout">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet nihil
-          quae eligendi atque, reiciendis accusantium deleniti, culpa fugiat
-          asperiores repellendus at mollitia adipisci quidem. Autem modi
-          aspernatur praesentium debitis in.
+          I am an undergraduate student in Intelligence Science and Technology
+          at Nanjing University (GPA&nbsp;4.46/5.00). I have also studied as an
+          international visiting student at the University of Pennsylvania
+          (GPA&nbsp;4.00/4.00), the University of Massachusetts Amherst, and
+          Carnegie Mellon University, where I have been advised by
+          Prof.&nbsp;Carlee&nbsp;Joe-Wong, Prof.&nbsp;Mohammad&nbsp;Hajiesmaili,
+          Prof.&nbsp;Mengfan&nbsp;Xu, and Prof.&nbsp;Lin&nbsp;Yang.:contentReference[oaicite:2]{index=2}
+          <br /><br />
+          My research focuses on sequential decision-making under limited or
+          biased information, including multi-armed bandits, offline
+          learning-from-feedback, preference learning with partial comparisons,
+          and decentralized multi-agent collaboration over random communication
+          networks.:contentReference[oaicite:3]{index=3}
         </p>
+
         <div class="socialicon">
-          <a href="">
+          <!-- put your actual links here -->
+          <a href="mailto:jyliuuu@sas.upenn.edu">
             <img
-              src="https://img.icons8.com/cute-clipart/64/000000/facebook-new.png"
+              src="https://img.icons8.com/dusk/64/000000/github.png"
+              alt="email icon"
           /></a>
-          <a href="">
-            <img src="https://img.icons8.com/dusk/64/000000/github.png"
-          /></a>
-          <a href=""
-            ><img
-              src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"
-          /></a>
-          <a href=""
-            ><img src="https://img.icons8.com/dusk/64/000000/pinterest.png"
+          <a href="mailto:jyliuuu@sas.upenn.edu">
+            <img
+              src="https://img.icons8.com/cute-clipart/64/000000/twitter.png"
+              alt="email icon"
           /></a>
         </div>
       </div>
-      <div class="about" id="about">
-        <h1>About Me</h1>
-        <p class="skill">HTML & CSS</p>
-        <div class="skills">
-          <div class="html">90%</div>
-        </div>
-        <p class="skill">JAVASCRIPT</p>
-        <div class="skills">
-          <div class="js">80%</div>
-        </div>
-        <p class="skill">PHP</p>
-        <div class="skills">
-          <div class="php">75%</div>
-        </div>
-        <p class="skill">WORDPRESS</p>
-        <div class="skills">
-          <div class="wp">80%</div>
-        </div>
-        <p class="skill">JOOMLA</p>
-        <div class="skills">
-          <div class="jm">65%</div>
-        </div>
+
+      <!-- RESEARCH INTERESTS -->
+      <div class="about" id="interests">
+        <h1>Research Interests</h1>
+        <p class="nameabout">
+          • Sequential Decision-Making <br />
+          • Multi-Armed Bandits (including contextual / preference / multi-agent settings) <br />
+          • Learning under Biased and Limited Data (offline RLHF-style feedback,
+          clustered users, heterogeneous agents):contentReference[oaicite:4]{index=4}
+        </p>
       </div>
-      <div class="services" id="services">
-        <h1>Services</h1>
+
+      <!-- NEWS / RECENT UPDATES -->
+      <div class="services" id="news">
+        <h1>News</h1>
         <div class="service-details">
           <div>
-            <img src="https://img.icons8.com/dotty/80/000000/web.png" />
-            <h3>Web Development</h3>
+            <h3>2025</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              hic necessitatibus sapiente dolorem similique aut nemo eligendi
-              quasi autem?
+              Our work <em>Distributed Multi-Agent Bandits Over
+              Erdős–Rényi Random Networks</em> is planned for NeurIPS 2025. It
+              studies heterogeneous agents that collaborate over random
+              time-varying communication graphs, combining gossip-style
+              information exchange with arm elimination, and establishing
+              near-optimal regret bounds.:contentReference[oaicite:5]{index=5}
             </p>
           </div>
+
           <div>
-            <img src="https://img.icons8.com/dotty/80/000000/design.png" />
-            <h3>UX and UI Design</h3>
+            <h3>2025</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              hic necessitatibus sapiente dolorem similique aut nemo eligendi
-              quasi autem?
+              We developed <em>Offline Clustering of Linear Bandits</em>, which
+              is currently in submission to ICLR 2026. This work proposes an
+              offline clustering framework that leverages limited and biased
+              logged data to identify user clusters and achieve near-optimal
+              suboptimality guarantees.:contentReference[oaicite:6]{index=6}
             </p>
           </div>
+
           <div>
-            <img src="https://img.icons8.com/wired/80/000000/marketing.png" />
-            <h3>Online Marketing</h3>
+            <h3>2025</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              hic necessitatibus sapiente dolorem similique aut nemo eligendi
-              quasi autem?
-            </p>
-          </div>
-          <div>
-            <img
-              src="https://img.icons8.com/pastel-glyph/64/000000/globe-earth.png"
-            />
-            <h3>SEO Optimization</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              hic necessitatibus sapiente dolorem similique aut nemo eligendi
-              quasi autem?
+              We introduced <em>Offline Clustering of Preference Learning with
+              Active-data Augmentation</em>, which studies preference learning
+              from pairwise comparisons with both offline data and a small
+              amount of actively collected feedback. The work is in submission
+              to SIGMETRICS 2026.:contentReference[oaicite:7]{index=7}
             </p>
           </div>
         </div>
       </div>
-      <div class="blog" id="blog">
-        <h1>Blog</h1>
 
-        <a href="#">
-          <img
-            src="https://i.ibb.co/hYRb1V4/wallpapersden-com-python-programmer-1920x3413.jpg"
-            alt="blog post"
-        /></a>
+      <!-- PUBLICATIONS -->
+      <div class="blog" id="publications">
+        <h1>Publications &amp; Preprints</h1>
 
-        <a href="#">
-          <img
-            src="https://i.ibb.co/hYRb1V4/wallpapersden-com-python-programmer-1920x3413.jpg"
-            alt="blog post"/></a
-        ><a href="#">
-          <img
-            src="https://i.ibb.co/hYRb1V4/wallpapersden-com-python-programmer-1920x3413.jpg"
-            alt="blog post"
-        /></a>
+        <div class="nameabout" style="text-align:left; max-width:800px; margin:0 auto;">
+          <p>
+            <strong>[1]</strong>
+            J. Liu, H. Qiu, L. Yang, M. Xu.
+            <em>Distributed Multi-Agent Bandits Over E-R Random Networks.</em>
+            NeurIPS 2025.<br />
+            We analyze heterogeneous multi-agent bandits on Erdős–Rényi random
+            communication graphs with randomly activated edges, design a
+            distributed algorithm that combines gossip communication with arm
+            elimination for efficient collaboration, and prove near-optimal
+            regret with communication–efficiency tradeoffs.:contentReference[oaicite:8]{index=8}
+          </p>
+
+          <p>
+            <strong>[2]</strong>
+            J. Liu, Z. Zhang, X. Wang, X. Liu, J. Lui,
+            M. Hajiesmaili, C. Joe-Wong.
+            <em>Offline Clustering of Linear Bandits: Unlocking the Power of
+            Clusters in Data-Limited Environments.</em>
+            In submission to ICLR 2026.<br />
+            We propose the first offline clustering framework for contextual
+            linear bandits using limited and biased logged data, develop
+            tailored algorithms for both data-insufficient and data-sufficient
+            regimes, and prove near-optimal suboptimality bounds that capture a
+            noise–bias tradeoff; validated with experiments.:contentReference[oaicite:9]{index=9}
+          </p>
+
+          <p>
+            <strong>[3]</strong>
+            J. Liu, F. Ghaffari, X. Wang, X. Liu,
+            M. Hajiesmaili, C. Joe-Wong.
+            <em>Offline Clustering of Preference Learning with
+            Active-data Augmentation.</em>
+            In submission to SIGMETRICS 2026.<br />
+            We study clustering for preference learning under pairwise
+            comparisons from offline data, and extend it to a hybrid setting
+            where each user can request a small, actively selected batch of new
+            comparisons. We prove suboptimality bounds and show that targeted
+            active data dramatically improves sample efficiency.:contentReference[oaicite:10]{index=10}
+          </p>
+        </div>
+
+        <!-- if you want pdf/arxiv links, add them here -->
+        <div class="contact-socialicon" style="margin-top:20px;">
+          <a href="mailto:jyliuuu@sas.upenn.edu">
+            <img
+              src="https://img.icons8.com/dusk/64/000000/github.png"
+              alt="email to request drafts"
+          /></a>
+        </div>
       </div>
+
+      <!-- CONTACT -->
       <div class="contact" id="contact">
         <h1>Contact</h1>
         <div class="contact-socialicon">
-          <a href="">
+          <p class="nameabout">
+            Email:
+            <a href="mailto:jyliuuu@sas.upenn.edu">
+              jyliuuu [at] sas.upenn.edu
+            </a>
+            <br />
+            Nanjing University<br />
+            Intelligence Science and Technology<br />
+            Undergraduate (Class of 2026):contentReference[oaicite:11]{index=11}
+          </p>
+
+          <!-- you can later add GitHub / Google Scholar / LinkedIn links here -->
+          <a href="mailto:jyliuuu@sas.upenn.edu">
             <img
-              src="https://img.icons8.com/cute-clipart/64/000000/facebook-new.png"
+              src="https://img.icons8.com/dusk/64/000000/github.png"
+              alt="email"
           /></a>
-          <a href="">
-            <img src="https://img.icons8.com/dusk/64/000000/github.png"
-          /></a>
-          <a href=""
-            ><img
-              src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"
-          /></a>
-          <a href=""
-            ><img src="https://img.icons8.com/dusk/64/000000/pinterest.png"
-          /></a>
-          <a href="">
-            <img src="https://img.icons8.com/nolan/64/google-plus.png" />
-          </a>
-          <a href="">
-            <img
-              src="https://img.icons8.com/cute-clipart/64/000000/twitter.png"
-            />
-          </a>
         </div>
       </div>
     </div>
+
     <footer>
       <p>
-        Designed By
+        © Jingyuan Liu.
+        Built with a lightweight HTML/CSS template. Original design credit:
         <a href="https://github.com/MasterBrian99" target="_blank">
-          MasterBrian..
+          MasterBrian99
         </a>
-        Free to use
+        .
       </p>
     </footer>
   </body>
