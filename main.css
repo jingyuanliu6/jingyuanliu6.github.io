@@ -193,34 +193,44 @@ nav a:hover:after {
 
 .services {
   text-align: left;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 50px auto;
+  padding: 0 50px;
+  max-width: 900px;
 }
 
 .service-details div {
   display: block;
   width: 100%;
-  margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .service-details div img {
   margin-top: 10px;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   float: left;
+  margin-right: 15px;
 }
 
 .service-details h3 {
   font-family: "Titillium Web", sans-serif;
-  font-size: 26px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #111;
 }
 
 .service-details p {
-  font-size: 20px;
-  margin-right: 10px;
+  font-size: 17px;
+  line-height: 1.6;
   font-family: "Varela Round", sans-serif;
+  color: #222;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+  max-width: 800px; 
 }
+
 
 .blog {
   margin-left: 50px;
@@ -289,4 +299,5 @@ footer p {
     margin-bottom: 60px;
   }
 }
+
 
