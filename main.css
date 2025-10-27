@@ -43,7 +43,7 @@ nav {
   height: 100%;
   left: 0;      
   top: 0;    
-  margin-left: 0 !important; 
+  margin-left: 0; 
 }
 
 nav img {
@@ -311,6 +311,7 @@ footer p {
 }
 
 body { overflow-x: hidden; }
+
 
 
 
