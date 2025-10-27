@@ -287,7 +287,7 @@ footer p {
   .service-details div { width: 100%; margin-bottom: 40px; }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   nav { display: none; }
 
   .main { margin: 0; padding: 0; }
@@ -311,6 +311,7 @@ footer p {
 }
 
 body { overflow-x: hidden; }
+
 
 
 
