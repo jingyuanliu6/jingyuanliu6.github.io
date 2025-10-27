@@ -299,13 +299,11 @@ footer p {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-
-  .blog img { margin-left: 0 !important; margin-right: 0 !important; width: 100% !important; height: auto !important; }
-  .home img { margin-top: 24px !important; width: 80vw !important; height: auto !important; }
 }
 
 
 body { overflow-x: hidden; }
+
 
 
 
