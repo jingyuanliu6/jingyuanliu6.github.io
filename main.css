@@ -41,6 +41,9 @@ nav {
   text-align: center;
   width: 250px;
   height: 100%;
+  left: 0;      
+  top: 0;    
+  margin-left: 0 !important; 
 }
 
 nav img {
@@ -308,6 +311,7 @@ footer p {
 }
 
 body { overflow-x: hidden; }
+
 
 
 
