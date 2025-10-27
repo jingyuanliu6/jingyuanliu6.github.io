@@ -281,36 +281,38 @@ footer p {
   }
 }
 
+@media screen and (max-width: 1440px) {
+  nav { margin-left: 0; }
+  .skills { width: 100%; }
+  .service-details div { width: 100%; margin-bottom: 40px; }
+}
+
 @media screen and (max-width: 600px) {
-  nav {
-    display: none; 
+  nav { display: none; }
+
+  .main { margin: 0; padding: 0; }
+
+  .nameabout,
+  .about,
+  .home,
+  .blog,
+  .contact,
+  .services,
+  .service-details,
+  .service-details div,
+  .contact-socialicon {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  .main {
-    margin: 0;
-    padding: 0 20px;
-  }
-
-  .skills {
-    width: 100%;
-  }
-
-  .service-details div {
-    width: 100%;
-    margin-bottom: 40px;
-  }
-
-  .service-details p {
-    font-size: 15px;
-    line-height: 1.5;
-  }
-
-  .service-details h3 {
-    font-size: 18px;
-  }
+  .blog img { margin-left: 0; margin-right: 0; }
 }
 
 body { overflow-x: hidden; }
+
+
 
 
 
