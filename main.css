@@ -309,27 +309,38 @@ footer p {
   }
 }
 
-/* ---------- NEWS LIST STYLE ---------- */
-.news-list {
-  list-style-type: disc;
-  list-style-position: outside;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-left: 0;
-  max-width: 800px;
+img { max-width: 100%; height: auto; }
+
+@media (max-width: 768px) {
+  .main { margin: 0; padding: 0 16px; }
+  .home img { margin-top: 40px; width: 70vw; height: auto; }
+  h1 { font-size: 28px; margin-bottom: 18px; }
+  .namestart { font-size: 24px; margin: 18px 0; }
+  .nameabout { font-size: 18px; line-height: 1.7; margin: 0 16px; }
+
+  .services { padding: 0 16px; margin: 30px auto; max-width: none; }
+  .service-details div { margin-bottom: 24px; }
+  .service-details h3 { font-size: 18px; }
+  .service-details p { font-size: 16px; line-height: 1.6; max-width: none; }
+
+  .news-list,
+  .about .nameabout { margin-left: 16px; margin-right: 16px; }
+  .about .nameabout[style*="text-indent"] {
+    text-indent: -1.1em !important;
+    padding-left: 1.1em !important;
+  }
+
+  .socialicon img { width: 32px; height: 32px; margin-top: 16px; }
+  .blog img { width: 100%; height: auto; margin: 0 0 16px 0; }
+  footer p { margin-top: 80px; margin-right: 12px; font-size: 14px; }
 }
 
-.news-list li {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: left;
-  color: #000;
-  text-indent: -1.4em;
-  padding-left: 1.4em;
-  margin-bottom: 15px;
-  max-width: 800px;
+@media (max-width: 420px) {
+  h1 { font-size: 24px; }
+  .namestart { font-size: 22px; }
+  .nameabout { font-size: 16px; }
 }
+
 
 
 
