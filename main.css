@@ -324,7 +324,7 @@ img { max-width: 100%; height: auto; }
   .service-details p { font-size: 16px; line-height: 1.6; max-width: none; }
 
   .news-list,
-  .about .nameabout { margin-left: 16px; margin-right: 16px; }
+  .about .nameabout { margin-left: 0px; margin-right: 0px; }
   .about .nameabout[style*="text-indent"] {
     text-indent: -1.1em !important;
     padding-left: 1.1em !important;
@@ -340,6 +340,7 @@ img { max-width: 100%; height: auto; }
   .namestart { font-size: 22px; }
   .nameabout { font-size: 16px; }
 }
+
 
 
 
