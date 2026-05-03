@@ -9,8 +9,6 @@ redirect_from:
 
 I am currently a senior student in the School of Intelligence Science and Technology at [Nanjing University](https://www.nju.edu.cn/en/). I also studied as an international student in the [International Guest Student Program](https://www.lps.upenn.edu/non-degree-programs/igsp) at the [University of Pennsylvania](https://www.upenn.edu/) during the Fall 2024 semester.
 
-I am seeking PhD opportunities for Fall 2026. Please feel free to reach out if my background aligns with your research.
-
 ## Research Interests
 
 My research interests lie at the intersection of operations research and machine learning, with a focus on sequential decision-making, learning theory, and optimization.
