@@ -1,5 +1,10 @@
-# Responsive-Personal-Website-Template
-Responsive Personal Website Template created with html and css only.no javascript or framework use..feel free to use
+# Jingyuan Liu
 
+This repository hosts my personal academic website at <https://jingyuanliu6.github.io/>.
 
-![screenshot](https://raw.githubusercontent.com/MasterBrian99/Responsive-Personal-Website-Template/master/Screenshot%20.png)
+The site uses the Academic Pages format and is organized around four sections:
+
+- About
+- Publications
+- News
+- Misc
