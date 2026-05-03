@@ -7,13 +7,14 @@
 
   .greedy-nav .visible-links {
     display: grid;
-    grid-template-columns: minmax(12rem, 31%) repeat(5, max-content);
+    grid-template-columns: 8% minmax(12rem, 18%) repeat(5, max-content);
     column-gap: 1.5rem;
     align-items: center;
     width: 100%;
   }
 
   .masthead__menu-item--lg {
+    grid-column: 2;
     padding-right: 0;
   }
 }
