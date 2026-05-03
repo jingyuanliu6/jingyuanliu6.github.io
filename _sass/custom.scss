@@ -1,0 +1,11 @@
+/* Site-specific refinements. */
+
+@include breakpoint($large) {
+  .greedy-nav > button {
+    display: none !important;
+  }
+
+  .masthead__menu-item--lg + .masthead__menu-item a {
+    margin-left: 8rem;
+  }
+}
