@@ -6,12 +6,14 @@
   }
 
   .greedy-nav .visible-links {
-    margin-left: 1.4rem;
+    display: grid;
+    grid-template-columns: minmax(12rem, 31%) repeat(5, max-content);
+    column-gap: 1.5rem;
+    align-items: center;
+    width: 100%;
   }
 
   .masthead__menu-item--lg {
-    position: relative;
-    left: -6.8rem;
-    padding-right: 8.2rem;
+    padding-right: 0;
   }
 }
