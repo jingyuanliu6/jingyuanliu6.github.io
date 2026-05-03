@@ -26,11 +26,12 @@ author:
   avatar           : "profile.png"
   name             : "Jingyuan Liu"
   pronouns         : # example: "she/her"
-  bio              : "Senior student at Nanjing University. Seeking PhD opportunities for Fall 2026."
+  bio              : "Senior student at Nanjing University."
   location         : "Nanjing, China"
   employer         : "Nanjing University"
   uri              : # URL
   email            : "jingyuanliu@smail.nju.edu.cn"
+  cv               : "/CV/Jingyuan_Academic_CV.pdf"
 
   # Academic websites
   academia         : # URL
