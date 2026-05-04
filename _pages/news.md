@@ -14,7 +14,7 @@ author_profile: true
 
 **Aug 27, 2024:** Happy to study at the University of Pennsylvania as an international student in the International Guest Student Program.
 
-**Aug 9, 2024:** Happy to attend the RLC 2024. It was a great pleasure to meet and discuss with many inspiring researchers!
+**Aug 9, 2024:** Happy to attend RLC 2024. It was a great pleasure to meet and discuss with many inspiring researchers!
 
 **Aug 2, 2024:** Happy to visit the University of Massachusetts Amherst, hosted by Prof. Mohammad Hajiesmaili, Prof. Mengfan Xu, and Dr. Xuchuang Wang.
 
