@@ -10,12 +10,12 @@ author_profile: true
 **Jingyuan Liu**, Hao Qiu, Lin Yang, Mengfan Xu  
 *NeurIPS 2025*
 
+[**Offline Preference Learning with Clustering and Active Data-Augmentation**](https://arxiv.org/abs/2510.26301)  
+**Jingyuan Liu**, Fatemeh Ghaffari, Xuchuang Wang, Xutong Liu, Mohammad Hajiesmaili, Carlee Joe-Wong  
+*ICML 2026 Workshop on Decision-Making from Offline Datasets to Online Adaptation*
+
 ## Preprints
 
 [**Offline Clustering of Linear Bandits: The Power of Clusters under Limited Data**](https://arxiv.org/abs/2505.19043)  
 **Jingyuan Liu**, Zeyu Zhang, Xuchuang Wang, Xutong Liu, John C.S. Lui, Mohammad Hajiesmaili, Carlee Joe-Wong  
-*In submission, under review*
-
-[**Offline Clustering of Preference Learning with Active-data Augmentation**](https://arxiv.org/abs/2510.26301)  
-**Jingyuan Liu**, Fatemeh Ghaffari, Xuchuang Wang, Xutong Liu, Mohammad Hajiesmaili, Carlee Joe-Wong  
 *In submission, under review*
