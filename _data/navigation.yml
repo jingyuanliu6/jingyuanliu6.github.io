@@ -17,5 +17,6 @@ main:
   - title: "News"
     url: /news/
 
-  - title: "Misc"
-    url: /misc/
+  # Restore this link when the Misc page is ready to publish.
+  # - title: "Misc"
+  #   url: /misc/
