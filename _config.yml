@@ -23,7 +23,7 @@ repository               : "jingyuanliu6/jingyuanliu6.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://jingyuanliu6.github.io/personal_website_photo.jpg"
   name             : "Jingyuan Liu"
   pronouns         : # example: "he/him"
   bio              : "First-year Ph.D. student at UC Berkeley."
@@ -165,6 +165,7 @@ include:
   - _pages
   - files
 exclude:
+  - _pages/misc.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
