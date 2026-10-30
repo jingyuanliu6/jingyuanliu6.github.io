@@ -1,5 +1,26 @@
 /* Site-specific refinements. */
 
+/* Keep the footer at the viewport bottom on short pages and after long content. */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  /* Override the spacing reserved by the theme's legacy footer script. */
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+body > #main {
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.page__footer {
+  flex: 0 0 auto;
+  float: none;
+}
+
 @include breakpoint($large) {
   .greedy-nav > button {
     display: none !important;
